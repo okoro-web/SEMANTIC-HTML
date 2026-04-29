@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+main{
+width: 500px;
+height: 1400px;
+background-color: white;
+border-radius: 18px;
+box-shadow: 0 10px 10px ;
+ margin: 5px;
+ line-height: 18px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+
+h2{
+    color: rgba(137, 58, 30, 0.765);
+}
+
+ table, tr, td{
+    margin:20px;
+    border-bottom: 0.1px black solid;
+    border-collapse: collapse;
+padding: 15px;
+width: 80%;
+}

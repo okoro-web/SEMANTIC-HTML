@@ -2,30 +2,37 @@
     box-sizing: border-box;
 }
 body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    
     background-attachment: fixed;
     display: flex;
     justify-content: center;
-    background-color: whitesmoke;
+    background-color: #ffeede;
 }
 
 main{
-width: 500px;
-height: 1400px;
+width: 35rem;
+height: 83rem;
 background-color: white;
 border-radius: 18px;
 box-shadow: 0 10px 10px ;
- margin: 5px;
+ margin: 5rem;
  line-height: 18px;
+ padding: 1rem;
 }
 
 img{
     border-radius: 10px;
+
+}
+div.img{
+display: flex;
+justify-content: center;
 }
 
 
 h2{
-    color: rgba(137, 58, 30, 0.765);
+    color: #7B3B2E;
+    margin: 0.2rem;
 }
 
  table, tr, td{
@@ -34,4 +41,16 @@ h2{
     border-collapse: collapse;
 padding: 15px;
 width: 80%;
+}
+
+div.div{
+    background-color: #F5F0F5;
+    width: 28rem;
+height: 7rem;
+    margin: 0.5rem;
+    border-radius: 15px;
+}
+h2[class]{
+    color: #5C3D8F;
+    font-size: 1.2rem;
 }

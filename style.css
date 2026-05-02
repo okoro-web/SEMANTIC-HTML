@@ -18,6 +18,10 @@ box-shadow: 0 10px 10px ;
  margin: 5rem;
  line-height: 18px;
  padding: 1rem;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  
+
 }
 
 img{
@@ -53,4 +57,7 @@ height: 7rem;
 h2[class]{
     color: #5C3D8F;
     font-size: 1.2rem;
+}
+table td[class]{
+    color: #7B3B2E;
 }
